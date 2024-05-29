@@ -1,0 +1,23 @@
+/* Write your code here: */
+
+/*group */
+h1,h2{
+    color:blueviolet
+}
+/* chile */
+.box > p {
+    color: firebrick;
+}
+
+/*decendent */
+.box li{
+  color: blue;
+} 
+
+/* chaining */
+li.done{
+    color: seagreen;
+}
+ul p.done {        /*or you can // ul>p.done{ }  but prefered descendant*/
+    font-size: 0.5rem;
+}
